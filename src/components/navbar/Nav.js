@@ -11,7 +11,7 @@ const Nav = ({ setShowModal, data, setData }) => {
 
   const sorter = (value) => {
     if (value === "latest") {
-      data.sort((a, b) => b.time - a.time);
+      data.sort((a, b) => b.date - a.date);
       console.log("clicked");
     }
     if (value === "oldest") {
